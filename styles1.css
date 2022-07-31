@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(#ffffff, #ffffff);
+}
+::selection {
+  color: #fff;
+  background: #4267b2;
+}
+.content {
+  height: 1000px;
+  width: 1000px;
+  background-image: url(images/heart.png);
+  background-size: cover;
+}
+.text {
+  color: #000000;
+  position: absolute;
+  top: 700px;
+  left: 500px;
+}
